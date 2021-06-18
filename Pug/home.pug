@@ -1,0 +1,10 @@
+extend includes/layout-normal.pug
+block main
+    .header--hero
+        .header__title Buy, rent or sell your property without any issues
+        .filters-container
+            +filter("Find a home").filter--active
+            +filter("Sell my home") 
+            +filter("See home valuations")
+        +search-box()
+

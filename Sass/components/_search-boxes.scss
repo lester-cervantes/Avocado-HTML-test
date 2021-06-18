@@ -1,0 +1,33 @@
+.search-box {
+    background-color: $white;
+    border-radius: $spacer-l;
+    width: 100%;
+    padding: $spacer-xxs;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .search-box__control-container {
+        padding: 0px $spacer-s;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        &:first-child {
+            border-right: 1px solid $color--secondary;
+        }
+        .search-box__label {
+            font-size: $text-xxs;
+            font-weight: 600;
+            color: $black;
+        }
+        .search-box__input,
+        .search-box__select {
+            border: none;
+            background-color: transparent;
+            color: $black;
+            font-size: $text-xxs;
+            font-weight: 400;
+        }
+        .search-box__select {}
+    }
+}

@@ -1,0 +1,46 @@
+
+/* Fonts Variables 
+**********************/
+$font-core: 'Lato', "Helvetica Neue", Arial, sans-serif;
+$font-secondary: 'Montserrat', "Helvetica Neue", Arial, sans-serif;
+
+/* Colors Variables
+**********************/
+$color--primary: #0daf4d;
+$color--secondary: #dadada;
+$color--third: #181914;
+$white: #FFF;
+$black: #161b1c;
+
+$gradient: linear-gradient(90deg, rgba(0,221,214,1) 0%, rgba(121,121,246,1) 100%);
+$gradient--dark: linear-gradient(90deg, $black 10%, rgba($color--third,0) 100%);
+$gradient-switch: linear-gradient(90deg, rgba(0,221,214,1) 0%, rgba(121,121,246,1) 25%, #B0BFCF 20%);
+
+/* Headers Variables
+**********************/
+$heading-xss: 14px;
+$heading-xs: 20px;
+$heading-s: 30px;
+$heading-m: 40px;
+$heading-l: 50px;
+$heading-xl: 60px;
+
+/* Text Variables
+**********************/
+$text-xxs: 8px;
+$text-xs: 12px;
+$text-s: 14px;
+$text-m: 16px;
+$text-l: 18px;
+$text-xl: 20px;
+$text-xxl: 24px;
+
+/* Spacing Variables
+**********************/
+$spacer-xxs: 4px;
+$spacer-xs: 8px;
+$spacer-s: 16px;
+$spacer-m: 24px;
+$spacer-l: 32px;
+$spacer-xl: 40px;
+$spacer-xxl: 80px;

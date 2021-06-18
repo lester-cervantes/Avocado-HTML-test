@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    min-height: $spacer-l;
+    border: none;
+    font-size: $text-s;
+    font-weight: 600;
+    background-color: $black;
+    color: $white;
+    border-radius: $spacer-l;
+    line-height: $spacer-l;
+    padding: 0px $spacer-s;
+
+    &.button--primary {
+        background-color: $color--primary;
+        color: $white;
+    }
+}

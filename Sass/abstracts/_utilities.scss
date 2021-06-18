@@ -1,0 +1,18 @@
+
+/* Global Styles
+**********************/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.section--main {
+    background-color: $color--primary;
+    width: 100%;
+    flex: 1 1 auto;
+}
+

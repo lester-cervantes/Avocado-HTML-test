@@ -1,0 +1,26 @@
+.topbar {
+    width: 100%;
+    min-height: 60px;
+    background-color: rgba($color--secondary, 0.5);
+    position: absolute;
+    
+    .topbar__logo-container {
+        position: relative;
+        .logo {
+            position: relative;
+        }
+    }
+    .topbar__menu-links {
+        position: relative;
+        ul.menu-link {
+            position: relative;
+            li.link-container {
+                position: relative;
+                .link {
+                    color: red;
+                }
+            }
+        }
+    }
+    .topbar__actions {}
+}

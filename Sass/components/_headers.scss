@@ -1,0 +1,18 @@
+.header--hero {
+    width: 100%;
+    height: 100vh;
+    background-image: $gradient--dark, url("../assets/hero-background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: $spacer-xxl;
+    font-family: $font-secondary;
+    
+    .header__title {
+        width: 100%;
+        max-width: 100%;
+        font-size: $heading-m;
+        font-weight: 600;
+        color: $white;
+    }
+}

@@ -1,0 +1,21 @@
+.filter {
+    background-color: transparent;
+    border-radius: $spacer-s;
+    padding: $spacer-xs;
+    font-size: $text-xxs;
+    font-family: $font-secondary;
+    opacity: 0.8;
+    &.filter--active {
+        background-color: $color--third;
+        opacity: 1;
+    }
+
+    .filter__text {
+        color: $white;
+    }
+}
+
+.filters-container {
+    display: flex;
+    flex-direction: row;
+}
